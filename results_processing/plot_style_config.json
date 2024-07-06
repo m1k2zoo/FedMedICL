@@ -1,0 +1,10 @@
+{
+    "ERM": {"legend": "ERM", "color": "#aeb0a4", "color_bar": "#d9d9d9"},
+    "fedavg": {"legend": "FedAvg", "color": "#1f77b4", "color_bar": "#80b1d3"},
+    "mixup": {"legend": "F-MixUp", "color": "#bcbd22", "color_bar": "#ffffb3"},
+    "SWAD": {"legend": "F-SWAD", "color": "#8c564b", "color_bar": "#bf812d"},
+    "ER": {"legend": "F-ER", "color": "#e377c2", "color_bar": "#fccde5"},
+    "resampling": {"legend": "F-GB", "color": "#ff7f0e", "color_bar": "#fdb462"},
+    "CRT": {"legend": "F-CRT", "color": "#d62728", "color_bar": "#fb8072"},
+    "CB": {"legend": "F-CB", "color": "#2ca02c", "color_bar": "#b3de69"}
+}

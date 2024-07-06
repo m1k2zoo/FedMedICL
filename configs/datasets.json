@@ -1,0 +1,98 @@
+{
+    "COVID": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "Age_binary"
+        ],
+        "tasks_sensitive_name": "Age_multi",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[1, 0], [0.8, 0.2], [0.5, 0.5], [0.2, 0.8], [0, 1]]
+    },
+    "CheXpert": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "Age_binary"
+        ],
+        "tasks_sensitive_name": "Age_multi",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[1, 0], [0.8, 0.2], [0.5, 0.5], [0.2, 0.8], [0, 1]]
+    },
+    "fitzpatrick17k": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "skin_binary"
+        ],
+        "tasks_sensitive_name": "skin_type",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[1, 0], [0.8, 0.2], [0.5, 0.5], [0.2, 0.8], [0, 1]]
+    },
+    "HAM10000": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "Age_binary"
+        ],
+        "tasks_sensitive_name": "Age_multi",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[0, 1], [0.2, 0.8], [0.5, 0.5], [0.8, 0.2], [1, 0]]
+    },
+    "PAPILA": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "Age_binary"
+        ],
+        "tasks_sensitive_name": "Age_binary",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[1, 0], [0.8, 0.2], [0.5, 0.5], [0.2, 0.8], [0, 1]]
+    },
+    "OL3I": {
+        "path_to_dataset": "change to dataset path",
+        "train_meta_path": "auto-filled by preprocessing script",
+        "val_meta_path": "auto-filled by preprocessing script",
+        "test_meta_path": "auto-filled by preprocessing script",
+        "sensitive_names": [
+            "Age_binary"
+        ],
+        "tasks_sensitive_name": "Age_multi",
+        "dataset_type": "2D",
+        "imbalance_ratios": {
+            "balanced": 0.2,
+            "spare": 0.2
+        },
+        "task_split_ratios": [[1, 0], [0.8, 0.2], [0.5, 0.5], [0.2, 0.8], [0, 1]]
+    }
+}

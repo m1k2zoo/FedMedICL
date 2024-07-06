@@ -1,0 +1,10 @@
+{
+    "batch_size_10": {
+        "COVID": 0.0001,
+        "CheXpert": 0.0001,
+        "fitzpatrick17k": 0.0001,
+        "HAM10000": 0.0001,
+        "PAPILA": 0.0001,
+        "OL3I": 0.0001
+    }
+}

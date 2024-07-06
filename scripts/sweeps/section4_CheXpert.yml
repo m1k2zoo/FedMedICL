@@ -1,0 +1,71 @@
+command:
+  - ${interpreter}
+  - ${program}
+  - ${args_no_boolean_flags}
+method: grid
+parameters:
+  algorithm:
+    values:
+      - ERM
+      - fedavg
+      - mixup
+      - SWAD
+      - ER
+      - resampling
+      - CRT
+      - CB
+  average_all_layers:
+    values:
+      - true
+  batch_size:
+    values:
+      - 10
+  datasets:
+    values:
+      - CheXpert
+  eval_batch_size:
+    values:
+      - 12
+  eval_num_workers:
+    values:
+      - 12
+  imbalance_ratios:
+    values:
+      - '{"balanced": 0.2, "spare": 0.2}'
+  is_imbalanced:
+    values:
+      - true
+  jt_iters:
+    values:
+      - 0
+  num_clients:
+    values:
+      - 50
+  num_evaluations:
+    values:
+      - 1
+  num_iters:
+    values:
+      - 5
+  num_rounds:
+    values:
+      - 150
+  num_tasks:
+    values:
+      - 4
+  num_workers:
+    values:
+      - 3
+  output_dir:
+    values:
+      - outputs
+  task_split_type:
+    values:
+      - group_probability
+  training_log_frequency:
+    values:
+      - 200
+  use_wandb:
+    values:
+      - true
+program: train_fedmedicl.py
